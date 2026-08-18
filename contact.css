@@ -1,0 +1,447 @@
+/* =========================================
+   NOCTURNE — CONTACT PAGE
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* =========================================
+   CONTACT HERO
+========================================= */
+
+.contact-hero {
+  min-height: 65vh;
+
+  padding: 110px 8% 100px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+.contact-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+
+  margin: 0 0 28px;
+}
+
+
+.contact-hero h1 {
+  font-family: Georgia, "Times New Roman", serif;
+
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 1;
+
+  margin: 0 0 30px;
+}
+
+
+.contact-intro {
+  max-width: 370px;
+
+  font-size: 13px;
+  line-height: 1.7;
+
+  margin: 0;
+}
+
+
+
+/* =========================================
+   MAIN CONTACT LAYOUT
+========================================= */
+
+.contact-layout {
+  width: 100%;
+
+  padding: 80px 8% 170px;
+
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+
+  gap: 130px;
+
+  align-items: start;
+}
+
+
+
+/* =========================================
+   LEFT SIDE
+========================================= */
+
+.contact-left {
+  max-width: 520px;
+}
+
+
+.section-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+
+  margin: 0 0 35px;
+}
+
+
+
+/* =========================================
+   INQUIRIES
+========================================= */
+
+.inquiry-section {
+  margin-bottom: 120px;
+}
+
+
+.inquiry-item {
+  margin-bottom: 42px;
+}
+
+
+.inquiry-type {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+
+  margin: 0 0 9px;
+}
+
+
+.inquiry-item a {
+  color: inherit;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+
+  text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+
+
+.inquiry-item a:hover {
+  opacity: 0.5;
+}
+
+
+
+/* =========================================
+   CONTACT FORM
+========================================= */
+
+.contact-form {
+  width: 100%;
+}
+
+
+.form-field {
+  margin-bottom: 40px;
+}
+
+
+.form-field label {
+  display: block;
+
+  font-size: 9px;
+  letter-spacing: 1.5px;
+
+  margin-bottom: 12px;
+}
+
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+
+  background: transparent;
+  color: inherit;
+
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+
+  border-radius: 0;
+
+  padding: 9px 0;
+
+  font: inherit;
+
+  outline: none;
+}
+
+
+.form-field textarea {
+  resize: vertical;
+
+  line-height: 1.5;
+}
+
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.contact-form button {
+  background: transparent;
+  color: inherit;
+
+  border: none;
+
+  padding: 0;
+
+  font-size: 10px;
+  letter-spacing: 2px;
+
+  cursor: pointer;
+
+  transition: opacity 0.3s ease;
+}
+
+
+.contact-form button:hover {
+  opacity: 0.5;
+}
+
+
+
+/* =========================================
+   CONTACT IMAGE
+========================================= */
+
+.contact-visual {
+  width: 100%;
+  max-width: 400px;
+
+  justify-self: end;
+
+  margin-top: 120px;
+}
+
+
+.contact-visual img {
+  width: 100%;
+  height: 570px;
+
+  display: block;
+
+  object-fit: cover;
+}
+
+
+.contact-image-caption {
+  margin-top: 14px;
+
+  display: flex;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+
+.contact-image-caption p {
+  font-size: 8px;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+
+  margin: 0;
+}
+
+
+
+/* =========================================
+   SOCIAL / MAISON DETAILS
+========================================= */
+
+.contact-details {
+  min-height: 50vh;
+
+  padding: 100px 8% 150px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+
+.contact-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 11px;
+}
+
+
+.contact-social .section-label {
+  margin-bottom: 22px;
+}
+
+
+.contact-social a {
+  color: inherit;
+
+  font-size: 13px;
+
+  text-decoration: none;
+
+  transition: opacity 0.3s ease;
+}
+
+
+.contact-social a:hover {
+  opacity: 0.5;
+}
+
+
+.contact-maison {
+  text-align: right;
+}
+
+
+.contact-maison p {
+  font-size: 9px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+
+  margin: 0;
+}
+
+
+
+/* =========================================
+   CONTACT FOOTER
+========================================= */
+
+.contact-footer {
+  width: 100%;
+
+  padding: 24px 8%;
+
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.contact-footer p {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+
+  margin: 0;
+}
+
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 700px) {
+
+
+  /* HERO */
+
+  .contact-hero {
+    min-height: 55vh;
+
+    padding: 80px 7% 70px;
+  }
+
+
+  .contact-hero h1 {
+    font-size: 42px;
+  }
+
+
+  .contact-intro {
+    max-width: 280px;
+
+    font-size: 12px;
+  }
+
+
+
+  /* CONTACT CONTENT */
+
+  .contact-layout {
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+
+    padding: 70px 7% 120px;
+  }
+
+
+  .contact-left {
+    width: 100%;
+    max-width: none;
+  }
+
+
+  .inquiry-section {
+    margin-bottom: 100px;
+  }
+
+
+  .inquiry-item a {
+    font-size: 18px;
+  }
+
+
+
+  /* IMAGE */
+
+  .contact-visual {
+    width: 78%;
+    max-width: 330px;
+
+    align-self: flex-end;
+
+    margin-top: 0;
+  }
+
+
+  .contact-visual img {
+    height: 450px;
+  }
+
+
+
+  /* SOCIAL DETAILS */
+
+  .contact-details {
+    min-height: 45vh;
+
+    padding: 90px 7% 110px;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 90px;
+  }
+
+
+  .contact-maison {
+    align-self: flex-end;
+
+    text-align: right;
+  }
+
+
+
+  /* FOOTER */
+
+  .contact-footer {
+    padding: 22px 7%;
+  }
+
+}
